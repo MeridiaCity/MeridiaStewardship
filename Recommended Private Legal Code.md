@@ -154,7 +154,7 @@ Nuisances are harm as a result of distracting, unpleasant, or disrupting matter 
 
         * e. Unbearably distasteful odors are given an `S` of 5. In an industrial zone: 2.
 * **4.3.2.2** **Sounds**. The scale `S = (5^(D/10) - 5^(B/10))/(3*10^6)` where
-    
+  
     * **4.3.2.2.1** `D` is the decibels caused (dBA or dBC) with a maximum of 100,
     
         * *Justification: Beyond 100 decibels, the level of distraction and unpleasantness starts maxing out and pain or physical damage starts being more relevant, which is covered by other sections.*
@@ -169,16 +169,15 @@ Nuisances are harm as a result of distracting, unpleasant, or disrupting matter 
     * **4.3.2.3** **Lights**:
 
         * **4.3.2.3.1** During the day, `S = luxCaused/luxLimit`, where `luxLimit` is:
-* a. 300 lux in a zone officially designated as industrial,
+            * a. 300 lux in a zone officially designated as industrial,
             * b. 150 lux in a zone officially designated as commercial,
-
             * c. 50 lux in any other area.
 * **4.3.2.3.2** Starting at the later of 8pm or sunset until the earlier of 8am or sunrise in any area other than an officially designated industrial zone, `S = (luxCaused/luxLimit) * (kelvinsCaused/kelvinLimit)` where `kelvinLimit` is 2500 Kelvin `luxLimit` is 1 lux and:
         
     * a. `S` is quadrupled if the light source is higher than 3 feet off the ground.
-        
+      
     * b. `S` is doubled if the light exposure longer than 1 minute in a 10-minute period.
-        
+      
     * *Justification: Short light exposures have a much smaller circadian rhythm affect.*
     * **4.3.2.4** **Vibrations** in the frequency range of 1-100Hz.  `S = vibration/vibrationLimit/10` where `vibration` is the inches per second of vibration caused.
 
@@ -186,7 +185,7 @@ Nuisances are harm as a result of distracting, unpleasant, or disrupting matter 
 
         * b. In any other area,  `vibrationLimit` is 0.1 inches per second.
 * **4.3.2.5** **Heat**. The scale `S = P * (1.45 - 0.5*D^(1.4/10)) * (T-70) / 100 million` where
-    
+  
     * `P` is the heat output power in kilowatts,
     
     * `D` is the distance from the source in feet (with a minimum of 1), and
