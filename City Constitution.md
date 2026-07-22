@@ -10,7 +10,7 @@ There are two legislative bodies: the council and local committees.
 
 **1. Council:**
 
-* **1.A** Three council members are elected in a proportional vote from each borough, with each receiving a vote-weight in the council according to the fraction of the vote they received.
+* **1.A** Three council members are elected in a proportional vote by each borough, in a a way of that borough's choosing. The vote-weight each member receives in the council is also determined by the borough.
 * **1.B** Council votes are counted using three different borough weighting methods:
   * Population weighting: The total vote weight of each triple of council members for a borough shall be proportional to the resident population of the borough. 
   * Value weighting: The total vote weight of each triple of council members for a borough shall be proportional to the total land value of the borough.
@@ -66,15 +66,15 @@ There are two legislative bodies: the council and local committees.
   * Creating requirements and standards the city's chosen private courts and police must follow.
   * Contracting with or operating a police force that may be no larger than the largest private police force or borough police force in the city. This police force may only be used to enforce rulings by the city court. 
 * **4.D** Collecting tax from boroughs. The amount of tax collected must be specified as a single percentage of the tax collected by any given borough. 
-* **4.E** Placing limitations, for the purpose of safety and security, on the possession of physical items with at least as much potential for physical harm as a gun that fires bullets of a caliber larger than 5mm.
+* **4.E** Placing limitations, for the purpose of safety and security, on the possession of physical items that would allow an average untrained person to A. kill or maim more than 30 people within a minute, or B. cause more than $100,000 of damage within a minute.
 
 **5. Local Committee Powers**
 
 The following power is passable with a vote through local committees only. Any vote on a proposal that only addresses this subject treats the council vote as passing automatically. 
 
-**5.A** Creating procedures for choosing private courts to handle disputes with the city government, and private police forces to enforce rulings by a city-sanctioned court. 
+**5.A** Creating procedures for choosing the judges for judicial consortiums, and private police forces to enforce rulings by a judicial consortiums. 
 
-*Justification: This gives a way to hold the city government to account through a mechanism that isn't entangled with city government officials or bureaucracy, which should eliminate or at least minimize the possibility of a dispute system that unfairly favors the city government.*
+*Justification: This gives a way to hold the city government to account through a mechanism that isn't entangled with city government officials or bureaucracy, which should eliminate or at least minimize the possibility of a dispute system biased in favor of the city government.*
 
 ### Judicial branch
 
@@ -83,6 +83,10 @@ The following power is passable with a vote through local committees only. Any v
 **6.A** The judicial branch generally consists of private courts selected by the legislature to judge disputes between people of different boroughs or between a person and a borough's government. 
 
 **6.B** Court proceedings on behalf of the city government will be conducted using statutory law. Common law is not used. Precedent may be used in argument, but is not law. Law and contract may be interpreted by any defendant in any way a reasonable person is likely to interpret it. Constitutional provisions must be interpreted with the literal meaning intended when the constitutional provision was added to the constitution.  
+
+**6.C** All courts must provide an option for a jury of no less than 12 to decide a case, at a standard fee dependent only on number of jurors, selection process, and juror time. Such an option must be decided by a vote of jurors and court judges where no more than 20% of the vote outcome may be influenced by court judges. At least 50% of the fee must be paid by the party who demanded the jury.
+
+* *Justification: Judges may sometimes be systemically biased, for example in cases against another court company or in cases where the court company has difficult to prove conflicts of interest. Requiring the option to  have the cased decided by a jury provides the opportunity to sidestep such bias. 12 seems to be a standard jury size. The fee must in part be paid by the party who requested the jury to ensure all parties have incentives to avoid unnecessary costs.*
 
 **7. City court powers:**
 
@@ -102,18 +106,23 @@ The following power is passable with a vote through local committees only. Any v
 * **7.F** To order an outcome against a person that involves only a transfer of money, rehabilitation, or therapy, there must be clear and convincing evidence, according to the law at the time of the act, that the person was at fault and that the harm done was not lower than estimated.
 * **7.G** To order an outcome against a person that involves something other than a transfer of money, rehabilitation training, or therapy, it must be beyond a reasonable doubt that, according to the law at the time of the act, the person was at fault and that the harm done was not lower than estimated.
   * *Justification: The burden of proof should be greater here because the punishment is more costly to society. While in a transfer of money as payment of damages, the receiver of the damage payment gains as much as the payer loses, the same cannot be said for eg prison time. Therefore we should be more sure of these kinds of punishments.*
-* **7.H** The cost of any punishments to the offender may not exceed `(DH + SC)/L + OB + 10% * CF`, where
+* **7.H** The cost of any punishments to the offender may not exceed `(DH + LH*L/2 + SC)/LI + OB + CF * CFF`, where
   * the "cost of any punishments", includes any court ordered outcomes including prison time, jail time, time arrested or detained, and in the case where no settlement was proposed that carried a lower cost to the defendant than the final outcome, time in court. 
   * `DH` is the Direct Harm done to the victim. This does not include any costs to the victim in bringing suit to the offender. 
+  * `LH` is the Likely Harm that may have been done to the victim.
+  * `L` is the Likelihood that the relevant significant harm would have happened.
   * `SC` is the Societal Cost, the estimated average or marginal cost that this type of harm places on society for each instance.
     * *These are things like the effort and time people must take to be vigilant against harm, preparation to defend themselves, the mental stress involved in that, and opportunity costs for things not done because of the risk of harm from others. The "societal cost" may be included in the estimation of harm done even tho this may sometime or even always result in greater than optimally efficient punishments, because it isn't clear whether or not this is the case. This wiggle room leaves it up to the boroughs to decide what they think is optimal.*
-  * `L` is the Likelihood of getting caught with enough evidence to be found guilty. 
+  * `LI` is the Likelihood of getting caught with enough evidence to be found guilty.
     * Things such as incidence (ratio of incidents caught divided by estimated total incidents), intent (negligence vs premeditation), ability to or effort made to avoid getting caught or minimize evidence, level of ability to or effort made to avoid harm in the case of negligence, and the like can be used to justify the level of this likelihood.
-    * L must be no lower than 1% - if it would be lower than 1%, the value 1% should be used.
-      * *Justification: L is given a minimum value if it is lower than 1% because low-value harm that is extremely unlikely to be caught should not place undue punishment on the few people that are caught. There should be a limit to how much a person should be punished for low-harm actions.*
+    * `L` must be no lower than 1% - if it would be lower than 1%, the value 1% should be used.
+      * *Justification: `L` is given a minimum value if it is lower than 1% because low-value harm that is extremely unlikely to be caught should not place undue punishment on the few people that are caught. There should be a limit to how much a person should be punished for low-harm actions.*
   * `OB` is the Offender Benefit, any significant measurable benefits the offender receives from the decided punishment (eg rehabilitation care, training, education, etc).
   * `CF` are the Court Fees.
-    * *Justification: It might be reasonable to allow courts to charge some of the fee to the defendant to incentivize them not to delay the proceedings.*
+  * `CFF` is the court fee fraction - the fraction of court fees the defendant can be ordered to pay. This fraction may not exceed 50% and `CF * CFF` may not exceed 5 times `DH`.
+    * *Justification: The plaintiff pays a large fraction of the court fees even in the case they win to disincentivize cases that are much more expensive than the harm caused. It may be reasonable to not charge all the court fees to the plaintiff in cases where the harm done is less than the court fees, because it might result in an increase in significant harm done where defendants can rely on plaintiffs not bringing it to court.*
+    * *Justification: The defendant may be ordered to pay some fraction of the court fees to incentivize them not to delay the proceedings and to incentivize them to avoid causing low-value harm.*
+    * *Justification: The limitation of court fees the defendant can be ordered to pay relative to the direct harm is so significant low-value harm can be disincentivized without causing very-low-value harm to be severely punished relative to the harm done.*
   * *Justification: Defendants shouldn't have the cost of legal defense included in their fine because the harm / likelihood of getting caught neutralizes the societal cost such that in the average case, the plaintiff's legal costs should be exceeded by the damages. This does mean that it doesn't make economic sense to prosecute every harm for harms that cost more to prosecute than damages received. This makes sense because it would be inefficient to spend more on prosecution than the cost of the original offense.*
 * **7.I** The cost to the state of any punishments of the offender may not exceed `DC * (DH + SH - OG) + OB` where
   * `DH`, `SH`, and `OB` are as above.
@@ -131,13 +140,25 @@ Additional justifications: *Damage done is the obvious metric by which to decide
 
 **8. Judicial consortium:** 
 
-**8.A** When there is a dispute between anyone and officials or actions of the city government, the case must first be decided in a borough court. If the decision convicts a city government official and they appeal, a judicial consortium is formed. A judge is chosen by each borough to make up the judicial consortium. The consortium then presides and decides the dispute by either validating the decision made, dismissing it, or amending it. 
+**8.A** When there is a dispute involving officials or actions of the city government or a city court, the case must first be decided in a borough court. Regardless of the decision, the defendant or the plaintiff may appeal, and upon appeal a judicial consortium is formed. A judge is chosen by each borough to make up the judicial consortium (via the processes set up by local committees). The consortium then presides and decides the dispute by either validating the decision made, dismissing it, or amending it. 
+
+**8.5. Review board:**
+
+**8.5.A** When the city's population is greater than 120, once per year, a review board of city citizens is selected consisting of 1 judge chosen by each borough in a manner of its choosing and the lesser of 100 citizens or 10% of the city's citizens selected randomly in equal proportions from each borough. 
+
+**8.5.B** The board will review the conduct of city officials, courts, and police. Members of the board can nominate individual officials for a hearing, during which the official in question will hear the review, the board will ask that official questions, and the official is given opportunity to make statements clarifying their conduct. Once the hearing is complete, the board will vote on whether to sanction the official and to what degree to sanction that official. 
+
+**8.5.C** The board's vote on whether to sanction an official and whether to accept a proposed sanction is weighted such that the vote of the judges have 10% of the voting power and the rest of the board has 90% of the voting power.
+
+**8.5.D** Sanctions may include removal from office, a fine up to twice the yearly pay of the given official, and imprisonment of up to 3 years.
+
+**8.5.E** Any selectee may decline further participation at any point, after which they can no longer rejoin. 
 
 ### 9. Executive branch
 
-**9.A** An executive branch made up of a Mayor who organizes the implementation of laws. The mayor is elected in a score vote by the local committees, where the total score for a candidate is found by multiplying the value-weighted average score by the population-weighted average score for that candidate. 
+**9.A** An executive branch made up of a Mayor who organizes the implementation of laws. The mayor is elected in a score vote by the local committees, where the total score for a candidate is found by multiplying together the average scores for all three weightings (value, area, and population) for that candidate. 
 
-* *Justification: multiplying the scores using both weightings strongly favors non-polarizing candidates.*
+* *Justification: multiplying the scores strongly favors non-polarizing candidates.*
 
 **9.B** The Mayor may also organize investigations or lawsuits against those who cause damages to the city government's property. 
 
@@ -168,7 +189,7 @@ A borough may not use powers that aren't explicitly enumerated in this constitut
 * Emergencies
   * **10.N** Creating procedures to choose private groups to hire for the alleviation of emergencies. 
   * **10.O** Borrowing money for the purposes of alleviating an emergency that affects more than 500 people. The city may not borrow more than 20% of its yearly tax revenue, and any borrowed money must be paid back within 4 years.
-* **10.P** Creating a welfare program in the form of a universal basic income. The total of yearly payouts may not exceed 10% of the government's yearly tax revenue and also may not exceed 0.1% of the total GDP of the borough.
+* **10.P** Creating a welfare program in the form of a universal basic income. The total of yearly payouts that are not justified for positive externalities may not exceed 10% of the government's yearly tax revenue and also may not exceed 0.1% of the total GDP of the borough.
   * *Justification: When the tax money for welfare comes from a land value tax, the tapering of a negative income tax has [effects similar to a tax](https://micahe.substack.com/p/means-testing-is-an-inefficient-tax?r=1fcmli)* *which causes deadweight losses. UBI does not have this problem when funded with LVT (tho it would if it were funded with other taxes).*
   * *Justification: Only the borough is allowed to have a welfare program and not the city, so that the effects of that program can be compared to adjacent boroughs.*
 * Land use
@@ -179,7 +200,7 @@ A borough may not use powers that aren't explicitly enumerated in this constitut
 * **10.U** Creating requirements and procedures for visitation, immigration, and expulsion. No person may be prevented from leaving a borough or the city except as is required for being lawfully detained for suspected harm or imprisoned for harm determined by a court. Any person with the ability to move freely within a particular borough may move freely throughout the entire city unless explicitly and individually expelled from a borough through due process of law within that borough. 
 * Licensure and information requirements
   * **10.V** Creating licensure requirements for doing certain activity likely to cause negative externalities, including but not limited to dog ownership, operation of heavy equipment that weighs more than 300 pounds or can perform more than 10 kilowatts of work, handling hazardous materials, demolition work, construction, and policing. 
-  * **10.W** Creating licensure requirements for doing certain activity likely to be engineered to trigger natural mechanisms in the brain and body in unnatural ways known to lead to significantly harmful effects to the person doing the activity, and creating labeling or other information disclosures requirements for those providing those activities as a product or service, including but not limited to gambling, drugs, porn, use of social media, and processed or engineered foods. 
+  * **10.W** Creating licensure requirements for doing certain activity likely to trigger natural mechanisms in the brain and body in unnatural ways known to lead to significantly harmful effects to the person doing the activity, and creating labeling or other information disclosures requirements for those providing those activities as a product or service, including but not limited to gambling, drugs, porn, use of social media, and processed or engineered foods. 
   * **10.X** Whenever any licenses are required, the government must ensure there is a training option that costs no more than 2 times the median daily income of a city resident and is expected to take no more than 30 hours to complete. If such an option does not exist at any time, people are free to perform the relevant actions without a license for the period of time between when the required option ceased to be available until 30 days after a required option becomes available again. 
   * **10.Y** A borough may prohibit people from assisting a ward in performing any activity that requires a license without approval of their guardian, or selling a ward a service that requires certain information disclosure without approval of their guardian.
 
@@ -242,13 +263,13 @@ These are limitations on all people within the borders of the city, regardless o
     * **12.C** No person or property may be detained for longer than reasonable suspicion exists nor longer than it should take to determine whether probable cause exists. 
   * Search
     * **12.D** Forcible search of items on a person may not be done without the person being lawfully detained or arrested.
-    * **12.E** No property may be forcibly searched without obtaining and producing a court warrant establishing and recording probable cause, the place to be searched, what is expected to be found, and reasonable suspicion that items will be found that are not legally possessed, evidence of a violation, or are weapons. 
+    * **12.E** No property may be forcibly searched without obtaining and producing a court warrant establishing and recording probable cause, the place to be searched, what is expected to be found, and reasonable suspicion that items will be found that are not legally possessed or are evidence of a violation. 
   * Seizure 
-    * **12.F** No property, other than weapons of someone detained or arrested, may be seized without obtaining and producing a court warrant establishing and recording probable cause and the items to be seized. Property may not be seized without probable cause that either the property is not legally possessed or that seizure is necessary as evidence for the relevant case.
+    * **12.F** No property, other than weapons of someone detained or arrested while the detention is pending, may be seized without obtaining and producing a court warrant establishing and recording probable cause and the items to be seized. Property may not be seized without probable cause that either the property is not legally possessed or that seizure is necessary as evidence for the relevant case.
   * Arrests
     * **12.G** An arrest is only permitted if the estimated flight risk is great enough when evaluated against the estimated damage done, or if risk of repeat offense is estimated to be high, and the person to be arrested is informed of these details. 
   * Holding at a holding facility
-    * **12.H** No person or property other than weapons for which the validity of the arrest or seizure has not been affirmed may be forcibly held longer than it should reasonably take for the appropriate court to affirm or disaffirm that validity. No weapons seized without affirmation of a probable cause may be held longer than the owner. 
+    * **12.H** No person or property may be forcibly held longer than it should reasonably take for the appropriate court to affirm or disaffirm the validity of the associated arrest or seizure before such validity has been affirmed. No property seized without affirmation of a probable cause may be held longer than the owner. 
     * **12.I** No person or property may be forcibly held for longer than it should take for a trial to begin for their case or for longer than their court ordered sentence. 
     * **12.J** When it is necessary to bring a person to a temporary holding facility or prison, at least 3 choices of independent companies must be offered. Each of these companies must not have overlap in direct nor indirect ownership. If the person to be held has ownership in one of the options, that person is only offered the 2 options they do not have ownership in.
     * **12.K** Any person forcibly held keeps all their rights except the right to leave the designated holding area. 

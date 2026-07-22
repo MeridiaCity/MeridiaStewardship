@@ -88,6 +88,12 @@ Land held by the borough will have, when sold, the following Land rights for the
 * Land may be placed into one of the following externality-zoning categories intended to allow for different standards for equivalences of harm.
     * **4.11** Commercial zone - Intended to allow mildly elevated externalities that some commercial or entertainment businesses generate.
     * **4.12** Industrial zone - Intended to allow significantly elevated externalities that some industrial businesses generate.
+* **4.13**  Private property may be offered for public use in exchange for a reduction of land value tax equal to the tax owed for the area of land being offered for public use. This offer must be registered with the borough and once registered will be in effect for no less than 1 year. If it is available for less than 90% of the days in the year, the land value tax reduction is cancelled and any reduced taxes during that  year are owed with market rate interest. If public access is limited to certain hours or times, the tax reduction is adjusted proportionally. 
+    * The public use it can be offered for must be one of:
+        * Pedestrian path - A path maintained to standards that prioritizes walkers.
+        * General path - A path maintained to standards that has dedicated space for bikes while also accommodating walkers.
+        * Park - Space intended as general park space.
+    * *Maybe have a difference in compensation for sleep-time access vs day time access.*
 
 ## 5. Law of guardians and wards
 
@@ -196,6 +202,36 @@ Limitations expressed as rights and freedoms of private persons:
 **1.2** No resident may wager more than $300 (2023) on any particular election outcome in an election betting pool.
 
 * *Justification: While election betting pools can add an incentive for people to learn about election issues, if too much money is riding on something, it might encourage fraud.*
+
+## 11. Use of force
+
+* Policing
+  * **11.1** A person can detain a suspect for no longer than 15 minutes if the detainer has probable cause of harm amounting to damage of greater than $50 (2023) if the suspect refuses to produce identification and refuses to allow a picture to be taken of them or refuses to offer a name and address. The detainer can search the suspect's person in this time, but must return all items after they are released. 
+  * **11.2** A person can take a policing training class to obtain a license for elevated policing privileges. 
+    * The training taken must cover the following topics:
+      * Mediation
+      * De-escalation
+      * Crisis intervention
+      * Legal rights including use of force (see *Defense of self, others, or property*)
+      * Best practice strategy and procedure
+      * Appropriate defense
+      * Appropriate apprehension and arrest
+      * Appropriate search and seizure
+      * Weapons training
+      * Defensive and offensive tactics including techniques to limit the damage done in a fight
+      * First aid and CPR
+      * Adversarial driving
+      * Community collaboration
+      * Negotiation strategies
+      * Communication strategies
+      * Human psychology
+      * Mental techniques for preparing for a stressful situation, maintaining focus, and de-stressing afterward.
+    * The privileges successfully passing training gives are:
+      * Detaining and searching a person with only reasonable suspicion.
+      * Making an arrest with the same pre-conditions as detainment for a person who has not taken policing training. In addition, there must be probable cause to suspect the person is a flight risk or that the likelihood of repeat offense is high. No arrest can be made without attempting to talk to all parties involved and mediate a discussion between them.
+      * Requesting and acting on borough warrants to search property (other than on someone's person), seize property, or make an arrest on existing probable cause. 
+      * Searching property (other than on someone's person) or seizing property, on the basis of a valid warrant.
+      * Seizing property.
 
 # Ideas
 
