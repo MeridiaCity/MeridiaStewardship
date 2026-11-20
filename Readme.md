@@ -1,4 +1,6 @@
-## Federated City Constitutions & Legal Codes
+## Meridia City Governance Repository
+
+This repository will contain the governance documents of Meridia, including documents governing the Meridia Stewardship organization, which will contain Meridia's governance. 
 
 This set of legal documents creates a federated government system that has the following major attributes:
 
@@ -20,7 +22,7 @@ This set of legal documents creates a federated government system that has the f
 
 ### Documents
 
-* [City Constitution](City%20Constitution.md)
+* [Constitution of Meridia](Constitution of Meridia.md)
 * [Recommended City Laws](Recommended%20City%20Laws.md) - A very incomplete set of law ideas for the city level government.
 * Recommended Constitutions & Legal Codes for sub-governments
   * [Borough Constitution](Recommended%20Borough%20Constitution.md)
@@ -31,3 +33,4 @@ This set of legal documents creates a federated government system that has the f
 ### Other
 
 [Auto LARP](Auto-LARP.md) - This document explains how you can use an AI as a judge to adjudicate a court case with human plaintiff and defendant.
+
